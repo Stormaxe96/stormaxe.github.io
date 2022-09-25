@@ -1,0 +1,148 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color:#111;
+    margin: 0 ;
+}
+
+
+ul {
+    list-style-type: none ;
+    margin: 0 ;
+    padding: 0 ;
+    display: flex ;
+}
+
+
+
+ul li a {
+    --c: rgb(234, 250, 8) ;
+    color: var(--c);
+    font-size: 16 px ;
+    border: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1 ;
+    transition: 0.5s;
+    margin: 1em;
+    float: left;
+    text-decoration: none;
+}
+
+
+
+ul li span{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1s;
+}
+
+
+
+ul li a:hover {
+    color: black;
+}
+
+ul li a:hover span {
+    transform: translateY(0) scale(2) ;
+
+}
+
+ul li a span:nth-child(1) {
+--n: 1 ;
+}
+
+ul li a span:nth-child(2) {
+    --n: 2 ;
+    }
+
+
+    ul li a span:nth-child(3) {
+        --n: 3 ;
+     }
+
+
+    
+  h1 {
+     color: yellow;
+   }
+
+   #second-title{
+    color: blueviolet;
+   }
+
+
+   #first-headtitle{
+    color: rgb(251, 255, 0);
+   }
+
+   #five-title{
+    color: brown;
+   }
+
+   #fourth-title{
+    color: aliceblue;
+   }
+ 
+
+   #six-title{
+    color: blue;
+   }
+
+
+   #first-title{
+    color: greenyellow;
+   }
+
+
+
+#first-username{
+    color: rgb(238, 255, 0);
+
+}
+
+
+
+#footer-title{
+    color: yellow;
+}
+
+
+
+
+#test-html{
+    color: yellow;
+}
+
+ 
