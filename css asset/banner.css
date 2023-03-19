@@ -1,0 +1,35 @@
+.crypto-banner {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .crypto-banner h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .crypto-banner .prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .crypto {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .crypto-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .crypto-price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
